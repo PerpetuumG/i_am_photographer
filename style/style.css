@@ -323,7 +323,8 @@ body {
   background-color: #22222b;
   font-size: 16px;
   text-decoration: none;
-  padding: 20px 0; }
+  padding: 20px 0;
+  border: none; }
 
 .section-banner {
   padding-top: 72px;
@@ -345,7 +346,7 @@ body {
 
 .section-feedback {
   padding-top: 122px;
-  padding-bottom: 100px; }
+  padding-bottom: 158px; }
 
 .feedback {
   display: -webkit-box;
@@ -389,8 +390,8 @@ body {
     line-height: 1.8; }
 
 .section-advantages {
-  padding-top: 122px;
-  padding-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 82px;
   background-color: #faf9fe; }
 
 .advantages {
@@ -407,7 +408,8 @@ body {
     .advantages__title span {
       font-size: 22px;
       display: block;
-      font-weight: 500; }
+      font-weight: 500;
+      margin-bottom: 13px; }
   .advantages__icon {
     background-color: #22222b;
     width: 70px;
@@ -415,7 +417,8 @@ body {
     border-radius: 100%;
     margin: 0 auto;
     background-position: center center;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    margin-bottom: 27px; }
     .advantages__icon-01 {
       background-image: url("../img/Forma1.png");
       background-size: 26px 23px; }
@@ -428,5 +431,39 @@ body {
     .advantages__icon-04 {
       background-image: url("../img/Forma4.png");
       background-size: 19px 23px; }
+
+.section-form {
+  padding-top: 130px;
+  padding-bottom: 130px; }
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 750px;
+  margin: 48px auto 0;
+  text-align: center; }
+  .form__input, .form__textarea {
+    border: none;
+    border-bottom: 1px solid #e1e1e1;
+    font-size: 14px;
+    padding: 17px 25px;
+    text-align: center;
+    margin-bottom: 15px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+    .form__input:focus, .form__textarea:focus {
+      outline: none;
+      border-bottom: 1px solid #22222b; }
+  .form__textarea {
+    padding: 12px 25px;
+    min-height: 86px;
+    margin-bottom: 35px; }
 
 /*# sourceMappingURL=style.css.map */
