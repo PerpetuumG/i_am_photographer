@@ -295,7 +295,7 @@ body{
 
 .section-portfolio{
     padding-top: 123px;
-    padding-bottom: 100px;
+    padding-bottom: 161px;
 }
 
 .portfolio {
@@ -341,5 +341,35 @@ body{
             height: 100%;
             object-fit: cover;
         }
+    }
+}
+
+.btn{
+    color: #fff;
+    background-color: $dark;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 20px 0;
+}
+
+.section-banner {
+    padding-top: 72px;
+    padding-bottom: 113px;
+    background-color: $dark;
+    color: #fff;
+    text-align: center;
+    .before-title{
+        font-size: 22px;
+        margin-bottom: 0;
+    }
+    .title-h2{
+        font-size: 48px;
+        margin-top: 15px;
+        margin-bottom: 42px;
+    }
+    .btn{
+        color: $dark;
+        background-color: #fff;
+        padding: 12px 57px;
     }
 }

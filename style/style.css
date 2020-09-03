@@ -277,7 +277,7 @@ body {
 
 .section-portfolio {
   padding-top: 123px;
-  padding-bottom: 100px; }
+  padding-bottom: 161px; }
 
 .portfolio {
   display: grid;
@@ -317,5 +317,30 @@ body {
       height: 100%;
       -o-object-fit: cover;
          object-fit: cover; }
+
+.btn {
+  color: #fff;
+  background-color: #22222b;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 20px 0; }
+
+.section-banner {
+  padding-top: 72px;
+  padding-bottom: 113px;
+  background-color: #22222b;
+  color: #fff;
+  text-align: center; }
+  .section-banner .before-title {
+    font-size: 22px;
+    margin-bottom: 0; }
+  .section-banner .title-h2 {
+    font-size: 48px;
+    margin-top: 15px;
+    margin-bottom: 42px; }
+  .section-banner .btn {
+    color: #22222b;
+    background-color: #fff;
+    padding: 12px 57px; }
 
 /*# sourceMappingURL=style.css.map */
