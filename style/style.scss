@@ -373,3 +373,46 @@ body{
         padding: 12px 57px;
     }
 }
+
+.section-feedback {
+    padding-top: 122px;
+    padding-bottom: 100px;
+}
+
+.feedback{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 66px;
+    &-item{
+        flex: 0 0 45%;
+        max-width: 45%;
+    }
+    &-top{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-bottom: 56px;
+    }
+    &-thumb{
+        margin-right: 10px;
+    }
+    &-name{
+        &__title{
+            font-size: 22px;
+            margin-top: 14px;
+            margin-bottom: 11px;
+        }
+        &__job{
+            font-size: 12px;
+            color: $text;
+            margin-bottom: 0;
+        }
+    }
+    &-body{
+        font-size: 18px;
+        color: $text;
+        font-style: italic;
+        padding-left: 28px;
+        line-height: 1.8;
+    }
+}

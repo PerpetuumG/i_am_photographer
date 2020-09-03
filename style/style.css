@@ -343,4 +343,49 @@ body {
     background-color: #fff;
     padding: 12px 57px; }
 
+.section-feedback {
+  padding-top: 122px;
+  padding-bottom: 100px; }
+
+.feedback {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 66px; }
+  .feedback-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 45%;
+            flex: 0 0 45%;
+    max-width: 45%; }
+  .feedback-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-bottom: 56px; }
+  .feedback-thumb {
+    margin-right: 10px; }
+  .feedback-name__title {
+    font-size: 22px;
+    margin-top: 14px;
+    margin-bottom: 11px; }
+  .feedback-name__job {
+    font-size: 12px;
+    color: #7f7f82;
+    margin-bottom: 0; }
+  .feedback-body {
+    font-size: 18px;
+    color: #7f7f82;
+    font-style: italic;
+    padding-left: 28px;
+    line-height: 1.8; }
+
 /*# sourceMappingURL=style.css.map */
