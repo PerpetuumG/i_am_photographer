@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,8 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a728e686-e829-401f-80ec-e25a1bfbeab9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contactform.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/contactform.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,20 +39,42 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1gx3vlzOvvjzKMKgUxOfzZyBB5b" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
-    <property name="vue.rearranger.settings.migration" value="true" />
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\i_am_photographer\js" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/i_am_photographer/index.html" useBuiltInWebServerPort="true">
@@ -67,6 +97,10 @@
       <workItem from="1599042654207" duration="8956000" />
       <workItem from="1599113857498" duration="9351000" />
       <workItem from="1599127313263" duration="12487000" />
+      <workItem from="1670688857085" duration="6278000" />
+      <workItem from="1670833815729" duration="5863000" />
+      <workItem from="1670914675157" duration="395000" />
+      <workItem from="1670928371617" duration="947000" />
     </task>
     <servers />
   </component>
@@ -86,75 +120,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Создание и стилизация блока Advantages" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="805" y="420" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog" timestamp="1599132108417">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="805" y="420" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog/0.0.1920.1040/-1920.56.1920.1040@0.0.1920.1040" timestamp="1599132108417" />
-    <state width="1877" height="218" key="GridCell.Tab.0.bottom" timestamp="1599127389262">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.56.1920.1040@0.0.1920.1040" timestamp="1599127389262" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599043762294" />
-    <state width="1877" height="218" key="GridCell.Tab.0.center" timestamp="1599127389261">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="218" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.56.1920.1040@0.0.1920.1040" timestamp="1599127389261" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599043762294" />
-    <state width="1877" height="218" key="GridCell.Tab.0.left" timestamp="1599127389260">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="218" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.56.1920.1040@0.0.1920.1040" timestamp="1599127389260" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599043762293" />
-    <state width="1877" height="218" key="GridCell.Tab.0.right" timestamp="1599127389261">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="218" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.56.1920.1040@0.0.1920.1040" timestamp="1599127389261" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599043762294" />
-    <state width="1877" height="218" key="GridCell.Tab.1.bottom" timestamp="1599127389263">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="218" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.56.1920.1040@0.0.1920.1040" timestamp="1599127389263" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599043762295" />
-    <state width="1877" height="218" key="GridCell.Tab.1.center" timestamp="1599127389263">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="218" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.56.1920.1040@0.0.1920.1040" timestamp="1599127389263" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599043762295" />
-    <state width="1877" height="218" key="GridCell.Tab.1.left" timestamp="1599127389262">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="218" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.56.1920.1040@0.0.1920.1040" timestamp="1599127389262" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599043762295" />
-    <state width="1877" height="218" key="GridCell.Tab.1.right" timestamp="1599127389263">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="218" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.56.1920.1040@0.0.1920.1040" timestamp="1599127389263" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599043762295" />
-    <state width="1877" height="218" key="GridCell.Tab.2.bottom" timestamp="1599127389262">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="218" key="GridCell.Tab.2.bottom/0.0.1920.1040/-1920.56.1920.1040@0.0.1920.1040" timestamp="1599127389262" />
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599043762294" />
-    <state width="1877" height="218" key="GridCell.Tab.2.center" timestamp="1599127389262">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="218" key="GridCell.Tab.2.center/0.0.1920.1040/-1920.56.1920.1040@0.0.1920.1040" timestamp="1599127389262" />
-    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599043762294" />
-    <state width="1877" height="218" key="GridCell.Tab.2.left" timestamp="1599127389262">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="218" key="GridCell.Tab.2.left/0.0.1920.1040/-1920.56.1920.1040@0.0.1920.1040" timestamp="1599127389262" />
-    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599043762294" />
-    <state width="1877" height="218" key="GridCell.Tab.2.right" timestamp="1599127389262">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="218" key="GridCell.Tab.2.right/0.0.1920.1040/-1920.56.1920.1040@0.0.1920.1040" timestamp="1599127389262" />
-    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599043762294" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1599049101168">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599049101168" />
   </component>
 </project>

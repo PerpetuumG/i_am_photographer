@@ -9,309 +9,323 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
     <link rel="stylesheet" href="style/normalize.css">
     <link rel="stylesheet" href="style/style.css">
+
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="js/contactform.js"></script>
+    <script defer src="js/script.js"></script>
 </head>
 
 <body>
-    <section class="main">
-        <header>
-            <div class="header">
-                <div>
-                    <img src="img/logo.png" alt="Logo">
+<section class="main" id="home">
+    <header>
+        <div class="header">
+        <div>
+            <a href="#">
+                <img src="img/logo.png" alt="Logo">
+            </a>
+        </div>
+        <div class="header__menu menu">
+            <!--  Значок бургер-меню -->
+                <div class="menu__icon">
+                    <span></span>
                 </div>
-                <nav>
-                    <ul class="nav">
+            <!--  Навигация -->
+                <nav class="menu__body">
+                    <ul class="menu__list nav">
+                        <!--             чистое меню-->
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
+                            <a data-goto="#home" href="#" class="nav-link">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a data-goto="#about" href="#" class="nav-link">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
+                            <a data-goto="#services" href="#" class="nav-link">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
+                            <a data-goto="#portfolio" href="#" class="nav-link">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Testimonials</a>
+                            <a data-goto="#testimonials" href="#" class="nav-link">Testimonials</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">News</a>
+                            <a data-goto="#news" href="#" class="nav-link">News</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a data-goto="#contact" href="#" class="nav-link">Contact</a>
                         </li>
                     </ul>
                 </nav>
             </div>
-        </header>
-        <div class="wrapper">
-            <h1 class="title-h1">I Am <span>Photographer</span></h1>
         </div>
-        <button class="btn-scroll">
-            <img src="img/scroll.png" alt="Scroll">
-        </button>
-    </section>
+    </header>
 
-    <section class="section-about">
-        <div class="wrapper">
-            <div class="box-about">
-                <div class="box-about-item">
-                    <img class="box-about__back" src="img/work.png" alt="Workplace">
-                    <p class="box-about__vertical">Work place</p>
-                    <img class="box-about__front" src="img/photo.jpg" alt="Photo">
-                </div>
-                <div class="box-about-item">
-                    <h2 class="title-h2">About me</h2>
-                    <p class="box-about__text">The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex!</p>
-                    <div class="progress-bar">
-                        <div class="progress-bar-line progress-bar--ps"></div>
-                        <div class="progress-bar-text">
-                            <p>Adobe Photoshop</p>
-                            <p>100%</p>
-                        </div>
-                        <div class="progress-bar-line progress-bar--indesign"></div>
-                        <div class="progress-bar-text">
-                            <p>Adobe Indesign</p>
-                            <p>65%</p>
-                        </div>
-                        <div class="progress-bar-line progress-bar--xd"></div>
-                        <div class="progress-bar-text">
-                            <p>Adobe XD</p>
-                            <p>80%</p>
-                        </div>
+    <div class="wrapper">
+        <h1 class="title-h1">I Am <span>Photographer</span></h1>
+    </div>
+    <button class="btn-scroll">
+        <img src="img/scroll.png" alt="Scroll">
+    </button>
+</section>
+
+<section class="section-about" id="about">
+    <div class="wrapper">
+        <div class="box-about">
+            <div class="box-about-item">
+                <img class="box-about__back" src="img/work.png" alt="Workplace">
+                <p class="box-about__vertical">Work place</p>
+                <img class="box-about__front" src="img/photo.jpg" alt="Photo">
+            </div>
+            <div class="box-about-item">
+                <h2 class="title-h2">About me</h2>
+                <p class="box-about__text">The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex!</p>
+                <div class="progress-bar">
+                    <div class="progress-bar-line progress-bar--ps"></div>
+                    <div class="progress-bar-text">
+                        <p>Adobe Photoshop</p>
+                        <p>100%</p>
+                    </div>
+                    <div class="progress-bar-line progress-bar--indesign"></div>
+                    <div class="progress-bar-text">
+                        <p>Adobe Indesign</p>
+                        <p>65%</p>
+                    </div>
+                    <div class="progress-bar-line progress-bar--xd"></div>
+                    <div class="progress-bar-text">
+                        <p>Adobe XD</p>
+                        <p>80%</p>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <section class="section-services">
-        <div class="wrapper">
-            <h2 class="title-h2 text-center">My Services</h2>
-            <p class="after-title text-center">Check out all my services and think what do you want</p>
-            <div class="service">
-                <div class="service-item">
-                    <div class="service__icon service__design"></div>
-                    <h3 class="title-h3">Graphic Design</h3>
-                    <div class="service__text">
-                        When your customers can buy what you sell from others, that’s called competition. That also makes it a for commodity.
-                    </div>
-                    <a class="service__link" href="#"><span class="service__link-text">Read More</span><span class="service__link-line"></span></a>
+<section class="section-services" id="services">
+    <div class="wrapper">
+        <h2 class="title-h2 text-center">My Services</h2>
+        <p class="after-title text-center">Check out all my services and think what do you want</p>
+        <div class="service">
+            <div class="service-item">
+                <div class="service__icon service__design"></div>
+                <h3 class="title-h3">Graphic Design</h3>
+                <div class="service__text">
+                    When your customers can buy what you sell from others, that’s called competition. That also makes it a for commodity.
                 </div>
-                <div class="service-item">
-                    <div class="service__icon service__photo"></div>
-                    <h3 class="title-h3">Photography</h3>
-                    <div class="service__text">
-                        Your customers can buy what you sell from the others, that’s called competition. That also makes it a Line Miliye dilam commodity.
-                    </div>
-                    <a class="service__link" href="#"><span class="service__link-text">Read More</span><span class="service__link-line"></span></a>
+                <a class="service__link" href="#"><span class="service__link-text">Read More</span><span class="service__link-line"></span></a>
+            </div>
+            <div class="service-item">
+                <div class="service__icon service__photo"></div>
+                <h3 class="title-h3">Photography</h3>
+                <div class="service__text">
+                    Your customers can buy what you sell from the others, that’s called competition. That also makes it a Line Miliye dilam commodity.
                 </div>
-                <div class="service-item">
-                    <div class="service__icon service__web"></div>
-                    <h3 class="title-h3">Web Design</h3>
-                    <div class="service__text">
-                        Customers can buy what you sell from others, that’s called competition. That also makes it a commodity That make you sence
-                    </div>
-                    <a class="service__link" href="#"><span class="service__link-text">Read More</span><span class="service__link-line"></span></a>
+                <a class="service__link" href="#"><span class="service__link-text">Read More</span><span class="service__link-line"></span></a>
+            </div>
+            <div class="service-item">
+                <div class="service__icon service__web"></div>
+                <h3 class="title-h3">Web Design</h3>
+                <div class="service__text">
+                    Customers can buy what you sell from others, that’s called competition. That also makes it a commodity That make you sence
                 </div>
-                <div class="service-item">
-                    <div class="service__icon service__social"></div>
-                    <h3 class="title-h3">Social Media</h3>
-                    <div class="service__text">
-                        When your customers can buy what you sell from others, that’s called competition. That also makes it a commodity.
-                    </div>
-                    <a class="service__link" href="#"><span class="service__link-text">Read More</span><span class="service__link-line"></span></a>
+                <a class="service__link" href="#"><span class="service__link-text">Read More</span><span class="service__link-line"></span></a>
+            </div>
+            <div class="service-item">
+                <div class="service__icon service__social"></div>
+                <h3 class="title-h3">Social Media</h3>
+                <div class="service__text">
+                    When your customers can buy what you sell from others, that’s called competition. That also makes it a commodity.
                 </div>
-                <div class="service-item">
-                    <div class="service__icon service__marketing"></div>
-                    <h3 class="title-h3">Marketing</h3>
-                    <div class="service__text">
-                        When your customers can buy what you sell from others, that’s called competition. That also makes it a commodity.
-                    </div>
-                    <a class="service__link" href="#"><span class="service__link-text">Read More</span><span class="service__link-line"></span></a>
+                <a class="service__link" href="#"><span class="service__link-text">Read More</span><span class="service__link-line"></span></a>
+            </div>
+            <div class="service-item">
+                <div class="service__icon service__marketing"></div>
+                <h3 class="title-h3">Marketing</h3>
+                <div class="service__text">
+                    When your customers can buy what you sell from others, that’s called competition. That also makes it a commodity.
                 </div>
-                <div class="service-item">
-                    <div class="service__icon service__app"></div>
-                    <h3 class="title-h3">App Developing</h3>
-                    <div class="service__text">
-                        When your customers can buy what you sell from others, that’s called competition. That also makes it a commodity.
-                    </div>
-                    <a class="service__link" href="#"><span class="service__link-text">Read More</span><span class="service__link-line"></span></a>
+                <a class="service__link" href="#"><span class="service__link-text">Read More</span><span class="service__link-line"></span></a>
+            </div>
+            <div class="service-item">
+                <div class="service__icon service__app"></div>
+                <h3 class="title-h3">App Developing</h3>
+                <div class="service__text">
+                    When your customers can buy what you sell from others, that’s called competition. That also makes it a commodity.
+                </div>
+                <a class="service__link" href="#"><span class="service__link-text">Read More</span><span class="service__link-line"></span></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-portfolio" id="portfolio">
+    <div class="wrapper">
+        <h2 class="title-h2 text-center">My Portfolio</h2>
+        <p class="after-title text-center">Here is all my work that i maked for some great people</p>
+        <div class="portfolio">
+            <div class="portfolio-item portfolio-01">
+                <div class="portfolio-thumb">
+                    <img src="img/portfolio/work01.jpg" alt="Work01">
+                </div>
+            </div>
+            <div class="portfolio-item portfolio-02">
+                <div class="portfolio-thumb">
+                    <img src="img/portfolio/work02.jpg" alt="Work02">
+                </div>
+            </div>
+            <div class="portfolio-item portfolio-03">
+                <div class="portfolio-thumb">
+                    <img src="img/portfolio/work03.jpg" alt="Work03">
+                </div>
+            </div>
+            <div class="portfolio-item portfolio-04">
+                <div class="portfolio-thumb">
+                    <img src="img/portfolio/work04.jpg" alt="Work04">
+                </div>
+            </div>
+            <div class="portfolio-item portfolio-05">
+                <div class="portfolio-thumb">
+                    <img src="img/portfolio/work05.jpg" alt="Work05">
+                </div>
+            </div>
+            <div class="portfolio-item portfolio-06">
+                <div class="portfolio-thumb">
+                    <img src="img/portfolio/work06.jpg" alt="Work06">
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <section class="section-portfolio">
-        <div class="wrapper">
-            <h2 class="title-h2 text-center">My Portfolio</h2>
-            <p class="after-title text-center">Here is all my work that i maked for some great people</p>
-            <div class="portfolio">
-                <div class="portfolio-item portfolio-01">
-                    <div class="portfolio-thumb">
-                        <img src="img/portfolio/work01.jpg" alt="Work01">
+<section class="section-banner">
+    <div class="wrapper">
+        <p class="before-title text-center">Do you love my work?</p>
+        <h2 class="title-h2 text-center">Available For Freelance Work!</h2>
+        <a href="#" class="btn">Hire Me</a>
+    </div>
+</section>
+
+<section class="section-feedback" id="testimonials">
+    <div class="wrapper">
+        <h2 class="title-h2 text-center">Testimonials</h2>
+        <p class="after-title text-center">Lets check what people say about me and my work</p>
+        <div class="feedback">
+            <div class="feedback-item">
+                <div class="feedback-top">
+                    <div class="feedback-thumb">
+                        <img src="img/photo-feedback-01.png" alt="Jonathon">
+                    </div>
+                    <div class="feedback-name">
+                        <p class="feedback-name__title">Jonathon Lee</p>
+                        <p class="feedback-name__job">UI/UX Designer</p>
                     </div>
                 </div>
-                <div class="portfolio-item portfolio-02">
-                    <div class="portfolio-thumb">
-                        <img src="img/portfolio/work02.jpg" alt="Work02">
+                <div class="feedback-body">
+                    <p>Finding the right partner to help make this goal a reality was key. The smart and creative team at Blue Fountain Media has helped anthony.com establish itself as a successful online business and become synonymous with an enjoyable solutions.</p>
+                </div>
+            </div>
+            <div class="feedback-item">
+                <div class="feedback-top">
+                    <div class="feedback-thumb">
+                        <img src="img/photo-feedback-02.png" alt="Emalia">
+                    </div>
+                    <div class="feedback-name">
+                        <p class="feedback-name__title">Emalia Clark</p>
+                        <p class="feedback-name__job">Frontend Dev</p>
                     </div>
                 </div>
-                <div class="portfolio-item portfolio-03">
-                    <div class="portfolio-thumb">
-                        <img src="img/portfolio/work03.jpg" alt="Work03">
-                    </div>
-                </div>
-                <div class="portfolio-item portfolio-04">
-                    <div class="portfolio-thumb">
-                        <img src="img/portfolio/work04.jpg" alt="Work04">
-                    </div>
-                </div>
-                <div class="portfolio-item portfolio-05">
-                    <div class="portfolio-thumb">
-                        <img src="img/portfolio/work05.jpg" alt="Work05">
-                    </div>
-                </div>
-                <div class="portfolio-item portfolio-06">
-                    <div class="portfolio-thumb">
-                        <img src="img/portfolio/work06.jpg" alt="Work06">
-                    </div>
+                <div class="feedback-body">
+                    <p>Blue Fountain Media came up with the design on their first try, delivered the complete package on a reasonable budget, and continued to fine-tune it. That wasn't enough -- they also created a plan to market the website and increase traffic.</p>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <section class="section-banner">
-        <div class="wrapper">
-            <p class="before-title text-center">Do you love my work?</p>
-            <h2 class="title-h2 text-center">Available For Freelance Work!</h2>
-            <a href="#" class="btn">Hire Me</a>
-        </div>
-    </section>
-
-    <section class="section-feedback">
-        <div class="wrapper">
-            <h2 class="title-h2 text-center">Testimonials</h2>
-            <p class="after-title text-center">Lets check what people say about me and my work</p>
-            <div class="feedback">
-                <div class="feedback-item">
-                    <div class="feedback-top">
-                        <div class="feedback-thumb">
-                            <img src="img/photo-feedback-01.png" alt="Jonathon">
-                        </div>
-                        <div class="feedback-name">
-                            <p class="feedback-name__title">Jonathon Lee</p>
-                            <p class="feedback-name__job">UI/UX Designer</p>
-                        </div>
-                    </div>
-                    <div class="feedback-body">
-                        <p>Finding the right partner to help make this goal a reality was key. The smart and creative team at Blue Fountain Media has helped anthony.com establish itself as a successful online business and become synonymous with an enjoyable solutions.</p>
-                    </div>
-                </div>
-                <div class="feedback-item">
-                    <div class="feedback-top">
-                        <div class="feedback-thumb">
-                            <img src="img/photo-feedback-02.png" alt="Emalia">
-                        </div>
-                        <div class="feedback-name">
-                            <p class="feedback-name__title">Emalia Clark</p>
-                            <p class="feedback-name__job">Frontend Dev</p>
-                        </div>
-                    </div>
-                    <div class="feedback-body">
-                        <p>Blue Fountain Media came up with the design on their first try, delivered the complete package on a reasonable budget, and continued to fine-tune it. That wasn't enough -- they also created a plan to market the website and increase traffic.</p>
-                    </div>
-                </div>
+<section class="section-advantages" id="news">
+    <div class="wrapper">
+        <div class="advantages">
+            <div class="advantages-item">
+                <div class="advantages__icon advantages__icon-01"></div>
+                <p class="advantages__title">
+                    <span>1325</span>
+                    happy customers
+                </p>
+            </div>
+            <div class="advantages-item">
+                <div class="advantages__icon advantages__icon-02"></div>
+                <p class="advantages__title">
+                    <span>1214</span>
+                    completed project
+                </p>
+            </div>
+            <div class="advantages-item">
+                <div class="advantages__icon advantages__icon-03"></div>
+                <p class="advantages__title">
+                    <span>10</span>
+                    years experience
+                </p>
+            </div>
+            <div class="advantages-item">
+                <div class="advantages__icon advantages__icon-04"></div>
+                <p class="advantages__title">
+                    <span>375</span>
+                    wins awards
+                </p>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <section class="section-advantages">
-        <div class="wrapper">
-            <div class="advantages">
-                <div class="advantages-item">
-                    <div class="advantages__icon advantages__icon-01"></div>
-                    <p class="advantages__title">
-                        <span>1325</span>
-                        happy customers
-                    </p>
-                </div>
-                <div class="advantages-item">
-                    <div class="advantages__icon advantages__icon-02"></div>
-                    <p class="advantages__title">
-                        <span>1214</span>
-                        completed project
-                    </p>
-                </div>
-                <div class="advantages-item">
-                    <div class="advantages__icon advantages__icon-03"></div>
-                    <p class="advantages__title">
-                        <span>10</span>
-                        years experience
-                    </p>
-                </div>
-                <div class="advantages-item">
-                    <div class="advantages__icon advantages__icon-04"></div>
-                    <p class="advantages__title">
-                        <span>375</span>
-                        wins awards
-                    </p>
-                </div>
+<section class="section-form" id="contact">
+    <div class="wrapper">
+        <h2 class="title-h2 text-center">Get in Touch</h2>
+        <p class="after-title text-center">Have you any quistion? Send me message without hesitated</p>
+        <div class="form-container">
+            <div class="note"></div>
+            <div class="fields">
+                <form class="form" action="">
+                    <input class="form__input" type="text" name="name" placeholder="Your Full Name">
+                    <input class="form__input" type="email" name="email" placeholder="Email Address">
+                    <textarea class="form__textarea" name="message" placeholder="Your Message"></textarea>
+                    <input class="form-container__btn btn" type="submit" name="submit" value="Send Message"></input>
+                </form>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <section class="section-form">
-        <div class="wrapper">
-            <h2 class="title-h2 text-center">Get in Touch</h2>
-            <p class="after-title text-center">Have you any quistion? Send me message without hesitated</p>
-            <div class="form-container">
-                <div class="note"></div>
-                <div class="fields">
-                    <form class="form" action="">
-                        <input class="form__input" type="text" name="name" placeholder="Your Full Name">
-                        <input class="form__input" type="email" name="email" placeholder="Email Address">
-                        <textarea class="form__textarea" name="message" placeholder="Your Message"></textarea>
-                        <input class="form-container__btn btn" type="submit" name="submit" value="Send Message"></input>
-                    </form>
-                </div>
-            </div>
+<footer>
+    <div class="wrapper">
+        <div class="footer">
+            <span>&copy; Copyright 2020 iGlyphic. All right reserved</span>
+            <ul class="social-network">
+                <li class="social-network__item">
+                    <a href="#" class="social-network__link" target="_blank">
+                        <i class="zmdi zmdi-facebook"></i>
+                    </a>
+                </li>
+                <li class="social-network__item">
+                    <a href="#" class="social-network__link" target="_blank">
+                        <i class="zmdi zmdi-dropbox"></i>
+                    </a>
+                </li>
+                <li class="social-network__item">
+                    <a href="#" class="social-network__link" target="_blank">
+                        <i class="zmdi zmdi-behance"></i>
+                    </a>
+                </li>
+                <li class="social-network__item">
+                    <a href="#" class="social-network__link" target="_blank">
+                        <i class="zmdi zmdi-dribbble"></i>
+                    </a>
+                </li>
+            </ul>
         </div>
-    </section>
+    </div>
+</footer>
 
-    <footer>
-        <div class="wrapper">
-            <div class="footer">
-                <span>&copy; Copyright 2020 iGlyphic. All right reserved</span>
-                <ul class="social-network">
-                    <li class="social-network__item">
-                        <a href="#" class="social-network__link" target="_blank">
-                            <i class="zmdi zmdi-facebook"></i>
-                        </a>
-                    </li>
-                    <li class="social-network__item">
-                        <a href="#" class="social-network__link" target="_blank">
-                            <i class="zmdi zmdi-dropbox"></i>
-                        </a>
-                    </li>
-                    <li class="social-network__item">
-                        <a href="#" class="social-network__link" target="_blank">
-                            <i class="zmdi zmdi-behance"></i>
-                        </a>
-                    </li>
-                    <li class="social-network__item">
-                        <a href="#" class="social-network__link" target="_blank">
-                            <i class="zmdi zmdi-dribbble"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </footer>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="contactform.js"></script>
 
 </body>
 
